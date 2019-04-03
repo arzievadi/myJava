@@ -37,6 +37,7 @@ public class switchString {
 		break;
 		case"turkey":
 		favoritefood="baklava";
+		break;
 		case"morocco":
 		favoritefood="couscous";
 		break;
@@ -45,13 +46,15 @@ public class switchString {
 		break;
 		case "pakistan":
 		favoritefood="biryani";
+		break;
+		
 		default:
 			favoritefood="default";
 		
 		}
 		
 		
-System.out.println("your favorite food "+favoritefood);
+System.out.println(favoritefood);
 
 		
 		

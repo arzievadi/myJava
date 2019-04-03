@@ -4,27 +4,13 @@ public class trial {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		int[] zip = new int[5];
 
-	
-		int[][] rating = { { 2, 6, 9, 3, 7 }, 
-				         { 1, 7, 9, 4, 8 }, 
-				         { 0, 4, 6, 2, 5 }, 
-				          { 0, 1, 2, 3 } };
+		zip[0] = 7;
+		zip[1] = 3;
+		zip[2] = 4;
+		zip[3] = 1;
+		zip[4] = 9;
 
-int sum = 0;
-for (int col = 0; col <= 3; col++) {
-sum += rating[2][col];
-}
-System.out.println("The average of row 2 is : " + sum / 4);	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	}
-
-}
+		System.out.println( zip[ 2 + 1 ] );
+		}}
