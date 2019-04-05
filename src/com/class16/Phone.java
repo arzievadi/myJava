@@ -36,6 +36,8 @@ public class Phone {
 	
 	
 	public static void main(String [] args) {
+		
+		
 		//phone android
 		Phone android=new Phone();
 		android.brandName="Android";
@@ -67,15 +69,15 @@ public class Phone {
   	iphone.drawPics();
   	iphone.playMusic();
   	
-	//phonenokia
+	//phone  nokia
 	
 	Phone nokia=new Phone();
-	iphone.brandName="Nokia";
-	iphone.operatingS="Asha";
-	iphone.storage=65;
-	iphone.battery=160;
-    iphone.multipleWindows=false;
-    iphone.wirelessCharging=false;
+	nokia.brandName="Nokia";
+	nokia.operatingS="Asha";
+	nokia.storage=65;
+	nokia.battery=160;
+    nokia.multipleWindows=false;
+    nokia.wirelessCharging=false;
 	
   //behavior
   	nokia.watchMovie();

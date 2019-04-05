@@ -11,6 +11,7 @@ public static void main(String[] args)
 	//className variableName=new ClassName();
 	
 	//1st object
+	//assigning values
 	
 	Car  car1=new Car();
 	
