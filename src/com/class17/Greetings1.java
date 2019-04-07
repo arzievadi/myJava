@@ -5,10 +5,10 @@ public class Greetings1 {
 public static void main(String[] args) {
 		
 		Greetings1 obj=new Greetings1();
-		obj.askHowAreYou("Omer");
+		obj.askHowAreYou("Omer");//argument,
 	}
 	
-	void askHowAreYou(String name) {
+	void askHowAreYou(String name) {//void is return type-----askHowAreYou method type
 		System.out.println("How are you "+name);
 	}
 	

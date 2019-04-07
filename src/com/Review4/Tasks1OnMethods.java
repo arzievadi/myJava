@@ -14,7 +14,7 @@ public static void main (String [] args) {
 
 ne.scannerInt();
 ne.ReverseString();
-
+ne.replace();
 }	
 	
 	
@@ -47,5 +47,19 @@ void ReverseString() {
 }
 	System.out.println(reverse);	
 }
+void replace() {
+	String repl="hello world my name is weqas";
+char empty;
+char[] r=repl.toCharArray();
+for(int i=0;i<=r.length-1;i++) {
+	if(r[i]=='a' || r[i]=='A' ||r[i]=='e'||r[i]=='E'||r[i]=='i'||r[i]=='A'||r[i]=='o'||r[i]=='O'||r[i]=='u'||r[i]=='U'){
+		empty= r[i];
+		System.out.println(empty+",");
+	}
+}
 
+
+
+
+}
 }
