@@ -23,6 +23,8 @@ public class Child1 extends Parent{
 	public void playTennis() {
 		System.out.println("Child 1 can play tennis");
 	}
+
+	
 }
 
 
